@@ -13,5 +13,5 @@ const writeFileSync = (file,data) => {
 }
 writeFileSync ("./example.txt" , "this data has been written through sync function 1");
 writeFileSync ("./example.txt" , "this data has been written through sync function 2");
-writeFileSync ("./example.txt" , "this data has been written through sync function 3");\
+writeFileSync ("./example.txt" , "this data has been written through sync function 3");
 
