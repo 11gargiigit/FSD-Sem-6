@@ -36,3 +36,6 @@ const appendFile = async(path,data) =>{
  }
 }
 appendFile("./example.txt","this text has been appended thorugh async fun");
+
+//async,await and try-catch se syntax hamesha sahi banega, error handling bhi sahi hoga, aur code bhi readable hoga. async await se asynchronous code ko synchronous jaisa likh sakte hai, jisse code samajhne me asani hoti hai. try-catch block se hum errors ko handle kar sakte hai, jisse program crash nahi hota aur user ko proper error message milta hai.
+//package.json aur package lock json me yehy diff hota h ki package.json me hum apne project ke dependencies ko list karte hai, jabki package-lock.json me yeh dependencies ke exact versions ko lock karte hai. package-lock.json file automatically generate hoti hai jab hum npm install command chalate hai, aur yeh ensure karti hai ki har kisi ke paas same version of dependencies ho, jisse compatibility issues nahi hote.
